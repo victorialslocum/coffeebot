@@ -1,0 +1,19 @@
+{
+  "name": "coffeebot",
+  "version": "1.0.0",
+  "description": "Slack bot for automatically pairing weekly coffee chats",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "Victoria Slocum",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^3.18.0",
+    "@slack/web-api": "^7.1.0",
+    "dotenv": "^16.4.5",
+    "node-schedule": "^2.1.1",
+    "winston": "^3.13.0"
+  }
+}
